@@ -1,5 +1,5 @@
 ---
-title: "MODULE NAME"
+title: "Email Marketing"
 subtitle: "Digital and Social Media Strategies"
 author: "Lachlan Deer"
 institute: "Tilburg University"
@@ -22,12 +22,376 @@ TBD
 ---
 class: inverse, center, middle
 
-# Section XX
+# Email Marketing: Some Facts
 
 ---
-# Slide Title 
+# History of Email
 
-course content here
+```{r, echo = FALSE, fig.align = "center", out.width="40%"}
+url <- "https://blog.sendblaster.com/wp-content/uploads/history-of-email-infographic.png"
+knitr::include_graphics(url)
+```
+
+Source: [SendBlaster](https://blog.sendblaster.com/2011/08/14/the-history-of-email-infographic/)
+
+---
+# History of Email Marketing 
+
+```{r, echo = FALSE, fig.align = "center", out.width="55%"}
+url <- "figs/email_mktg_history_01.png"
+knitr::include_graphics(url)
+```
+
+Source: [RedEye](https://visage.co/infographics-prove-value-email-marketing-data/)
+
+
+---
+# History of Email Marketing 
+
+```{r, echo = FALSE, fig.align = "center", out.width="55%"}
+url <- "figs/email_mktg_history_02.png"
+knitr::include_graphics(url)
+```
+
+Source: [RedEye](https://visage.co/infographics-prove-value-email-marketing-data/)
+
+
+---
+# History of Email Marketing 
+
+```{r, echo = FALSE, fig.align = "center", out.width="55%"}
+url <- "figs/email_mktg_history_03.png"
+knitr::include_graphics(url)
+```
+
+Source: [RedEye](https://visage.co/infographics-prove-value-email-marketing-data/)
+
+
+---
+# What do we want to know? 
+
+1. Does Personalization Matter? 
+  * Discussion based on [Sahni, Wheeler & Chintagunta](https://pubsonline.informs.org/doi/epdf/10.1287/mksc.2017.1066)
+
+2. What do Targeted Discounts Do?
+  * Discussion based on [Sahni, Zou & Chintagunta](https://pubsonline.informs.org/doi/epdf/10.1287/mnsc.2016.2450)
+
+---
+class: inverse, center, middle
+
+# Does Personalization Matter?
+
+---
+# Business Problem
+
+**Seeking Answers to the following strategic questions:**
+
+* Does adding personalized content improve email effectiveness
+    * Personalized content $\rightarrow$ noninformative content
+
+Data Driven Answers:
+
+* Randomized Control Trial 
+* What paper does 
+* Evaluate effects using YYY
+
+Discussion based on [Sahni, Wheeler and Chintagunta (2018)](link TBA)
+
+---
+# Why this matters 
+
+* Most businesses engage in this practice 
+* Email marketers have access to this information 
+* Can impact consumer response via 'psychological mechanisms'
+
+Psychological mechanisms!?
+
+* [**A**] Drawing **a**ttention to the email 
+* [**O**] Shape **o**pinions of reciever / positive cue
+* [**E**] Increased **e**laboration ... via recipient processing
+
+---
+# From 'Psychology' to Outcomes 
+
+Different mechanisms $\rightarrow$ different patterns in outcome variables 
+
+* Increased opens of personalized emails 
+  * Consistent with A, O, E
+
+* Unsubscriptions 
+  * Increase under A, decrease under O and E
+
+* Leads
+  * increase under E and O ...
+  * ... more evidence for E if even more leads when a discount mentioned
+
+---
+# The Experiments 
+
+```{r, echo = FALSE, fig.align = "center", out.width="80%"}
+url <- "figs/swc_experiments.png"
+knitr::include_graphics(url)
+```
+
+---
+# Experiment 1: Context 
+
+```{r, echo = FALSE, fig.align = "center", out.width="70%"}
+url <- "figs/experiment_1_email.png"
+knitr::include_graphics(url)
+```
+
+.center[
+$\implies$ ** Focus: acquiring new customers**
+]
+
+---
+# Experiment 1: Design
+
+Control Group: Typical email, no name added to subject line 
+
+Eg: "Learn Financial Modeling from Industry Experts"
+
+Treatment Group: Names explicitly added to email's subject line 
+
+Eg: "Jack, Learn Financial Modeling from Industry Experts"
+
+---
+# Experiment 1: Results
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+url <- "figs/experiment_1_results.png"
+knitr::include_graphics(url)
+```
+
+---
+# Experiment 2: Context 
+
+```{r, echo = FALSE, fig.align = "center", out.width="50%"}
+url <- "figs/experiment_2_email.png"
+knitr::include_graphics(url)
+```
+
+.center[
+$\implies$ **Focus: Re-engaging old customers**
+]
+
+
+---
+# Experiment 2: Design
+
+Control Group: No name in subject line
+
+Treatment Group: 'Usual' email, contains name in subject line 
+
+Outcome: clicks on link
+
+---
+# Experiment 2: Results 
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+url <- "figs/experiment_2_results.png"
+knitr::include_graphics(url)
+```
+
+---
+# Experiment 3: Context 
+
+```{r, echo = FALSE, fig.align = "center", out.width="45%"}
+url <- "figs/experiment_3_email.png"
+knitr::include_graphics(url)
+```
+.center[
+$\implies$ **Focus: Monthly newsletter**
+]
+
+---
+# Experiment 3: Design
+
+Control Group: Typical email, no name added to subject line 
+
+Treatment Group: Names explicitly added to email's subject line 
+
+Outcome: clicks on link
+
+---
+# Experiment 3: Results
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+url <- "figs/experiment_3_results.png"
+knitr::include_graphics(url)
+```
+
+---
+# Experiment 4: Searching for a Mechanism
+
+Identify whether mechanism related to: 
+
+* "increasing elaboration" 
+  * noninformative content increases message processing 
+* "serving as a positive cue" 
+  * noninformative content increases the recipients liking of the advertiser.
+
+
+---
+# Experiment 4: Design
+
+```{r, echo = FALSE, fig.align = "center", out.width="70%"}
+url <- "figs/experiment_4_design.png"
+knitr::include_graphics(url)
+```
+
+---
+# Experiment 4: Context 
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+url <- "figs/experiment_4_email.png"
+knitr::include_graphics(url)
+```
+
+---
+# Experiment 4: Results
+
+```{r, echo = FALSE, fig.align = "center", out.width="70%"}
+url <- "figs/experiment_4_teststats.png"
+knitr::include_graphics(url)
+```
+
+---
+# Experiment 4: Results
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+url <- "figs/experiment_4_regression.png"
+knitr::include_graphics(url)
+```
+
+---
+# Takeaways 
+
+* Personalized emails increase engagement
+* via increased processing by recipient
+* Open questions:
+  * Long run impacts of advertising? (recall, brand perception etc)
+  * Is this still effective when all companies personalize?
+
+---
+class: inverse, center, middle
+
+# Targeted Discounts
+
+
+---
+# Business Problem
+
+**Seeking Answers to the following strategic questions:**
+
+* How should we think about targeted email offers?
+  * Treated as a "coupon"? $\rightarrow$ targets price sensitive consumers
+  * Generate attention to the company?  $\rightarrow$ "advertising effect"
+  * Some combination of both? 
+
+Data Driven Answers:
+
+* Randomized Control Trials .. 70!
+* Anonymous ticket resale platform
+* Evaluate effects using YYY
+
+---
+# The Experiment
+
+* 70 experiments targeting over 100 individuals
+
+* Within each potential recipients randomized between 
+  * Recieving an offer (discount)
+  * Not recieving an offer (discount)
+
+---
+# The Firm Targets 
+
+```{r, echo = FALSE, fig.align = "center", out.width="40%"}
+url <- "figs/targeted_disc_targeting.png"
+knitr::include_graphics(url)
+```
+
+---
+# But Randomization Checks are OK
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+url <- "figs/targeted_disc_randomization.png"
+knitr::include_graphics(url)
+```
+
+---
+# Average Expenditure Between Treatments
+
+```{r, echo = FALSE, fig.align = "center", out.width="60%"}
+url <- "figs/targeted_discount_exp_kernel.png"
+knitr::include_graphics(url)
+```
+
+---
+# Average Effect of an Offer
+
+```{r, echo = FALSE, fig.align = "center", out.width="70%"}
+url <- "figs/targeted_disc_avg_effect.png"
+knitr::include_graphics(url)
+```
+
+**Effects also where consumers do not use the offer!**
+
+---
+# Who Responds? 
+
+```{r, echo = FALSE, fig.align = "center", out.width="60%"}
+url <- "figs/targeted_disc_who_responds.png"
+knitr::include_graphics(url)
+```
+
+(correlation)
+
+---
+# Longer-Term Effects
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+url <- "figs/targeted_disc_long_term.png"
+knitr::include_graphics(url)
+```
+
+---
+# Cross-Category Spillovers 
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+url <- "figs/targeted_disc_spillovers.png"
+knitr::include_graphics(url)
+```
+
+---
+# Takeaways
+
+* Targeted Offers increase spending by 37.2%
+  * 90% of this is **not** on redeeming coupons 
+
+* Effect carries over in the short run ...
+  * ... and across categories 
+
+$\implies$ consistent with a reminder effect
+
+Potential implication: firms can gain from the targeted promotions even without having to incur the costs associated with the discounts
+
+* Need to investigate generalizability of this 
+
+---
+class: inverse, center, middle
+
+# Recap 
+
+---
+# Summary
+
+* Personalization Matters 
+
+* Discounts ....
+
 
 ---
 # License & Citation

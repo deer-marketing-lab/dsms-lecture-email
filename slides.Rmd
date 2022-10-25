@@ -78,6 +78,22 @@ class: font160
   * Discussion based on [Sahni, Zou & Chintagunta](https://pubsonline.informs.org/doi/epdf/10.1287/mnsc.2016.2450)
 
 ---
+# Focus on the Authors 
+
+.pull-left[
+
+```{r, echo = FALSE, fig.align = "center", out.width="55%"}
+url <- "https://faculty.chicagobooth.edu/-/media/faculty/pradeep-chintagunta/pradeepchintaguntahomepage_500x500.jpg?h=500&w=500&hash=ED40ECFB79E8B9F841E641828E90A153"
+knitr::include_graphics(url)
+```
+]
+
+.pull-right[
+Pradeep Chintagunta
+]
+
+
+---
 class: inverse, center, middle
 
 # Does Personalization Matter?

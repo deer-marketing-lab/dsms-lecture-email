@@ -13,11 +13,15 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-class: font200
+class: font160
 
 # Learning Goals for this Week
 
-TBD
+* Define 'Email Personalization'
+* Explain how to design an experiment to test the effectiveness of email personalization 
+* Evaluate the impact of email personalization on consumer behaviour
+* Explain how to design an experiment to test the effectiveness of targeted discounts in email 
+* Evaluate the impact of targeted discounts on consumer behaviour
 
 ---
 class: inverse, center, middle

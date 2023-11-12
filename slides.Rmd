@@ -26,6 +26,53 @@ class: font160
 ---
 class: inverse, center, middle
 
+# Preliminaries
+
+---
+class: font160
+# Where Are We Now? 
+
+Course Themes:
+
+1. Classical Approaches to Measuring Advertising Effects
+2. Modern Evaluation of Digital Advertising Effects
+2. User Generated Content & Social Media
+3. **Email & Mobile Marketing**
+4. Issues in (Massive) Online Marketplaces
+5. Impact of Privacy Regulations 
+
+
+---
+class: font160
+# Our learning journey... 
+
+.center[.font120[`r icons::fontawesome("rocket", style = "solid")` Casual effects of email marketing]]
+
+<br>
+
+*Previously*: User Generated Content & Social Media
+
+**Today**: **Understanding Email Marketing Effectiveness**
+
+*Next Week*: Mobile (App) Marketing
+
+
+---
+class: font160
+# Today's Topic Coverage
+
+A brief history of email marketing
+
+ **Does Personalization Matter? **
+  * [Sahni, Wheeler & Chintagunta](https://pubsonline.informs.org/doi/epdf/10.1287/mksc.2017.1066)
+
+**What do Targeted Discounts Do?**
+  * [Sahni, Zou & Chintagunta](https://pubsonline.informs.org/doi/epdf/10.1287/mnsc.2016.2450)
+
+
+---
+class: inverse, center, middle
+
 # Email Marketing: Some Stylized Facts
 
 ---
@@ -69,17 +116,6 @@ knitr::include_graphics(url)
 ```
 
 Source: [RedEye](https://visage.co/infographics-prove-value-email-marketing-data/)
-
-
----
-class: font160
-# What do we want to know? 
-
-1. **Does Personalization Matter? **
-  * Discussion based on [Sahni, Wheeler & Chintagunta](https://pubsonline.informs.org/doi/epdf/10.1287/mksc.2017.1066)
-
-2. **What do Targeted Discounts Do?**
-  * Discussion based on [Sahni, Zou & Chintagunta](https://pubsonline.informs.org/doi/epdf/10.1287/mnsc.2016.2450)
 
 ---
 class: font160
@@ -130,20 +166,31 @@ class: inverse, center, middle
 
 ---
 class: font160
-# Business Problem
+# Motivation
 
-**Seeking Answers to the following strategic questions:**
+**Strategic question:** Does adding personalized content improve email effectiveness?
+  
+* Personalized content $\rightarrow$ noninformative content
 
-* Does adding personalized content improve email effectiveness
-    * Personalized content $\rightarrow$ noninformative content
+`r icons::fontawesome("rocket", style = "solid")` How would you design a experiment to answer this question?
 
-**Data Driven Answers:**
+
+---
+class: font160
+# Motivation
+
+**Strategic question:** Does adding personalized content improve email effectiveness?
+  
+* Personalized content $\rightarrow$ noninformative content
+
+`r icons::fontawesome("rocket", style = "solid")` How would you design a experiment to answer this question?
+
+How we're going to answer this question:
 
 * Randomized Control Trial 
 * Varies personalization & across contexts
 * Evaluate effects using test of proportions & regression
 
-Discussion based on [Sahni, Wheeler and Chintagunta (2018)](https://pubsonline.informs.org/doi/epdf/10.1287/mksc.2017.1066)
 
 ---
 class: font160
@@ -496,11 +543,11 @@ class: font160
 Suggested Citation:
 
 ```{r, engine='out', eval = FALSE}
-@misc{deerdsms2022,
+@misc{deerdsms2023,
       title={"Digital and Social Media Strategies: Email Marketing"},
       author={Lachlan Deer},
-      year={2022},
-      url = "https://github.com/tisem-digital-marketing/dsms-lecture-08-email-marketing"
+      year={2023},
+      url = "https://github.com/deer-marketing-lab/dsms-lecture-email-marketing"
 }
 ```
 
